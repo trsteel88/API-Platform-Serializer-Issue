@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61c6b3d9938e1f8a7c3df4425e90b55b",
+    "content-hash": "9dbcf731c7f2d6e5adc15edd98731011",
     "packages": [
         {
             "name": "api-platform/api-pack",
@@ -44,16 +44,16 @@
         },
         {
             "name": "api-platform/core",
-            "version": "v2.4.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/api-platform/core.git",
-                "reference": "76a47b73bdeca31bec647bb2f4e018f3dc29a3d7"
+                "reference": "bc0806be383a6fc6820a1230bbddd3ea29542ac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/api-platform/core/zipball/76a47b73bdeca31bec647bb2f4e018f3dc29a3d7",
-                "reference": "76a47b73bdeca31bec647bb2f4e018f3dc29a3d7",
+                "url": "https://api.github.com/repos/api-platform/core/zipball/bc0806be383a6fc6820a1230bbddd3ea29542ac7",
+                "reference": "bc0806be383a6fc6820a1230bbddd3ea29542ac7",
                 "shasum": ""
             },
             "require": {
@@ -65,7 +65,7 @@
                 "symfony/http-kernel": "^3.4 || ^4.0",
                 "symfony/property-access": "^3.4 || ^4.0",
                 "symfony/property-info": "^3.4 || ^4.0",
-                "symfony/serializer": "^4.1",
+                "symfony/serializer": "^4.2",
                 "symfony/web-link": "^4.1",
                 "willdurand/negotiation": "^2.0.3"
             },
@@ -92,7 +92,6 @@
                 "jangregor/phpstan-prophecy": "^0.3",
                 "justinrainbow/json-schema": "^5.0",
                 "nelmio/api-doc-bundle": "^2.13.3",
-                "php-mock/php-mock-phpunit": "^2.0",
                 "phpdocumentor/reflection-docblock": "^3.0 || ^4.0",
                 "phpdocumentor/type-resolver": "^0.3 || ^0.4",
                 "phpspec/prophecy": "^1.8",
@@ -182,7 +181,7 @@
                 "rest",
                 "swagger"
             ],
-            "time": "2019-03-28T20:16:27+00:00"
+            "time": "2019-04-09T07:37:20+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -6739,7 +6738,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "api-platform/core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
